@@ -1,0 +1,24 @@
+project:
+  type: book
+  output-dir: output
+  render:
+    - "*.qmd"
+    - "!_drafts/"
+
+book:
+  title: "Quarto Book Starter"
+  author: "Poy Chang"
+  date: last-modified
+  date-format: "YYYY-MM-DD"
+  chapters:
+    - index.qmd
+    - 01-intro.qmd
+    - 02-workflow.qmd
+    - references.qmd
+
+toc: true
+number-sections: true
+format:
+  html:
+    theme: darkly
+    code-line-numbers: true
